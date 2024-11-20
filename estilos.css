@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 246, 240);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#general-container {
+  width: 95%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+}
+header h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 45px;
+}
+header a {
+  text-decoration: none;
+  color: rgb(37, 36, 34);
+  margin: 0%;
+  padding-bottom: 1px;
+  font-size: 20px;
+}
+header h5 {
+  margin-bottom: 5px;
+}
+#naranja-header {
+  color: rgba(204, 81, 32, 0.5);
+}
+
+#index-nav {
+  text-align: center;
+  color: rgb(37, 36, 34);
+  margin-bottom: 30px;
+}
+#index-nav h1 {
+  font-size: 60px;
+  margin-top: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 60px;
+}
+#index-nav h3 {
+  font-size: 25px;
+  font-style: bold;
+  line-height: 1.6;
+  font-weight: 400;
+}
+#index-nav a {
+  text-decoration: none;
+}
+#index-nav h4 {
+  text-decoration: none;
+  color: rgb(204, 81, 32);
+  margin: 0%;
+  padding-bottom: 1px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+.link-index {
+  color: rgb(204, 81, 32);
+  text-decoration: none;
+}
+
+#index-texto-foto-sufragio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 40px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.index-articulos h2 {
+  font-size: 38px;
+  word-spacing: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.index-videos {
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+}
+.index-pie-fotos {
+  font-style: italic;
+}
+#index-acotacion-container {
+  background-color: #f7f7f2;
+  border: solid black;
+  border-width: 1px 3px 1px 3px;
+
+  padding: 20px;
+  margin: 20px;
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: rgb(37, 36, 34);
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+#index-acotacion-autor {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  margin-left: 15%;
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#lucia-calvo {
+  text-align: center;
+}
+#lucia-calvo-imagen {
+  display: block;
+  margin: auto;
+  margin-top: 35px;
+  border-radius: 90px;
+  margin-bottom: 12px;
+}
+#footer-container {
+  background-color: rgb(204, 81, 32);
+  text-align: center;
+  width: 100%;
+  color: white;
+  margin-top: 80px;
+}
+#footer-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#programacion-main{
+    color: rgb(37, 36, 34);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#programacion-main h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 55px;
+  margin-bottom: 70px;
+}
+.programacion-lista{
+ margin-bottom: 20px;
+ margin-top: 20px;
+ margin-left: 25%;
+ font-size: 20px;
+ font-weight: 500;
+}
+
+
+.programacion-sublista{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-left: 28%;
+}
+
+.orange-text{
+  color: rgb(204, 81, 32);
+}
+
+
+#museos-main{
+  color: rgb(37, 36, 34);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#museos-main h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 55px;
+  margin-bottom: 70px;
+}
+ 
+.museos-lista{
+  list-style-type: none;
+}
+
+#museos-main ul{
+text-align: justify;
+
+}
+#museos-main h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.imagenes-museos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+} 
+#museos-main figcaption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+ margin-top:20px;
+ margin-bottom:50px;
+ font-size:12px
+}
+
+.infos-margin{
+  margin-left: 60px;
+}
+.museos-sublista{
+  list-style-type: square;
+  margin-top: 20px;
+  padding-left: 20px;
+ margin-bottom:30px;
+
+}
+.museos-sublista li{
+  padding-bottom:8px;
+}
+.museos-links{
+  color: rgb(204, 81, 32);
+  text-decoration:none
+}
